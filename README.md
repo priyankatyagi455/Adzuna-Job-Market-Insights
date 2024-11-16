@@ -46,7 +46,7 @@ Open the Python script and replace placeholders for APP_ID and APP_KEY with your
 
 Usage
 
-Run the script to fetch job data:python job_scraper.py 
+Run the script to fetch job data: python job_scraper.py 
 
 View the output:
 
