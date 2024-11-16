@@ -26,8 +26,10 @@ Set up a virtual environment (optional but recommended):
 
 python -m venv env  
 
-source env/bin/activate  # For macOS/Linux  
+source env/bin/activate  # For macOS/Linux
+
 env\Scripts\activate     # For Windows  
+
 Install the required dependencies:
 pip install -r requirements.txt  
 Obtain an Adzuna API key:
@@ -58,12 +60,20 @@ project/
 ├── LICENSE              # License for the project  
 ├── README.md            # Project overview and instructions  
 └── requirements.txt     # List of required Python packages  
+
 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 Contributing
+
 Contributions are welcome! Feel free to submit issues or pull requests to improve this project.
+
 Security Note
+
 Please ensure that your Adzuna API credentials (App ID and API Key) are not exposed publicly when sharing the project. Consider using environment variables to manage sensitive information.
+
 Acknowledgments
+
 Data Source: Adzuna API
 Libraries Used: Python, Requests, Matplotlib, Pandas
