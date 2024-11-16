@@ -31,34 +31,50 @@ source env/bin/activate  # For macOS/Linux
 env\Scripts\activate     # For Windows  
 
 Install the required dependencies:
-pip install -r requirements.txt  
+
+pip install -r requirements.txt 
+
 Obtain an Adzuna API key:
+
 Sign up at Adzuna Developer Portal.
+
 Create an application to get your App ID and API Key.
+
 Update the script with your Adzuna API credentials:
+
 Open the Python script and replace placeholders for APP_ID and APP_KEY with your Adzuna credentials.
+
 Usage
-Run the script to fetch job data:
-python job_scraper.py  
+
+Run the script to fetch job data:python job_scraper.py 
+
 View the output:
+
 The data will be saved in a file named adzuna_job_listings.csv.
+
 Graphs showing trends will appear in a separate window during execution.
+
 Open the CSV file to explore the retrieved job data, which includes:
-Job Titles
-Locations
-Salaries
-Links to full job details
-Visualizations
+
+Job Titles, Locations, Salaries, Links to full job details, Visualizations
+
 Job Demand by Title: A bar chart showing the most frequently occurring job titles.
+
 Salary Distribution: A histogram of salaries to understand income trends.
+
 Job Locations: A pie chart or bar chart to highlight areas with the most job listings.
+
 File Structure
-plaintext
-project/  
+
+plaintext project/  
 ├── job_scraper.py       # Main Python script for scraping and analysis  
+
 ├── adzuna_job_listings.csv # Output file containing scraped job data  
+
 ├── LICENSE              # License for the project  
-├── README.md            # Project overview and instructions  
+
+├── README.md            # Project overview and instructions 
+
 └── requirements.txt     # List of required Python packages  
 
 License
