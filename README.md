@@ -7,15 +7,25 @@ This project is a Python-based web scraper and data analysis tool that collects 
 Features
 
 Fetches job listings from the Adzuna API.
+
 Saves the retrieved data in a CSV file for offline analysis.
+
 Analyzes the data to identify trends in job demand and salary distributions.
+
 Visualizes data using matplotlib to create clear and insightful graphs.
+
 Installation
+
 Clone the repository:
+
 git clone <https://github.com/priyankatyagi455/Adzuna-Job-Market-Insights.git>  
-cd <Adzuna-Job-Market-Insights>  
+
+cd <Adzuna-Job-Market-Insights> 
+
 Set up a virtual environment (optional but recommended):
+
 python -m venv env  
+
 source env/bin/activate  # For macOS/Linux  
 env\Scripts\activate     # For Windows  
 Install the required dependencies:
