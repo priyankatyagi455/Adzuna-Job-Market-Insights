@@ -20,7 +20,7 @@ Clone the repository:
 
 git clone <https://github.com/priyankatyagi455/Adzuna-Job-Market-Insights.git>  
 
-cd <Adzuna-Job-Market-Insights> 
+cd  <Adzuna-Job-Market-Insights> 
 
 Set up a virtual environment (optional but recommended):
 
