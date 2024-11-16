@@ -92,4 +92,5 @@ Please ensure that your Adzuna API credentials (App ID and API Key) are not expo
 Acknowledgments
 
 Data Source: Adzuna API
+
 Libraries Used: Python, Requests, Matplotlib, Pandas
