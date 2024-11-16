@@ -1,4 +1,5 @@
 Job Listings Web Scraper and Data Analyzer
+
 Overview
 This project is a Python-based web scraper and data analysis tool that collects job listings from the Adzuna API. It extracts relevant information such as job titles, locations, salaries, and links to the original job postings. The data is saved in a CSV file for further use and visualized through charts and graphs to analyze trends in job availability, salaries, and job concentrations by location.
 
